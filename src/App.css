@@ -1,0 +1,137 @@
+.form__container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 527px;
+  width: 90%;
+  box-shadow: 0 20px 61px 0 rgba(65, 62, 101, 0.14);
+}
+
+.form__section {
+  padding: 2rem 0;
+}
+
+.form__section h1,
+.form__section p {
+  margin: 0 auto;
+  text-align: center;
+  font-stretch: normal;
+}
+.form__section h1 {
+  text-transform: capitalize;
+  font-size: 3.75rem;
+  letter-spacing: -1.03px;
+  color: #1d293f;
+  margin-bottom: 0.8rem;
+}
+
+.form__section p {
+  font-size: 1.3125rem;
+  color: #696871;
+}
+
+/* Form */
+.form {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2.188rem;
+}
+
+.form .form__input input {
+  box-sizing: border-box;
+  border: 0px solid;
+  height: 4.563rem;
+  border-radius: 0.625rem;
+  border: solid 1px #eae9f2;
+}
+
+.form__input input::placeholder {
+  font-size: 1.125rem;
+  color: #9c9aaa;
+}
+
+.form__input input[type='email'],
+.form__input input[type='text'],
+.form__input input[type='password'] {
+  font-size: 1.125rem;
+  color: #212529;
+  padding-left: 1.688rem;
+}
+
+.input__fields__error {
+  margin-top: 0.3rem;
+  padding-left: 1.688rem;
+}
+.form .form__input {
+  margin-bottom: 1.063rem;
+}
+
+.form input,
+.form button {
+  width: 100%;
+}
+.terms__condition {
+  gap: 0.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.terms__condition input {
+  width: 1.188rem;
+}
+
+.agree__to__terms {
+  letter-spacing: normal;
+  font-size: 1rem;
+  color: #696871;
+}
+
+.terms__and__conditions {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: normal;
+  color: #5454d4;
+}
+
+.terms__and__conditions:hover {
+  text-decoration: underline;
+}
+
+.button__container {
+  width: 100%;
+  margin-bottom: 1.125rem;
+}
+
+.form button {
+  font-size: 1.313rem;
+  text-transform: capitalize;
+  margin-top: 1.063rem;
+  height: 3.75rem;
+  border: 0px solid;
+  border: solid 1px #c31a12;
+  border-radius: 0.625rem;
+  background-color: #f04037;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sign__in__container p {
+  font-size: 1rem;
+}
+
+.sign__in__link {
+  text-decoration: none;
+  color: #5454d4;
+}
+
+.sign__in__link:hover {
+  text-decoration: underline;
+}
+
+/* input fields error */
+.input__fields__error {
+  color: #e03131;
+}
